@@ -286,8 +286,7 @@ def display_checkout():
 
 
 with st.sidebar:
- 
-    st.image(r"C:\Users\user\Downloads\logo triple  kick.jpeg", width=200)
+    st.image("assets/logo.jpeg", width=200)
     st.markdown("## 🛒 Tahapan Belanja")
     st.button("1️⃣ Katalog Produk", on_click=set_page, args=("products",))
     cart_count = len(st.session_state.cart)
@@ -303,3 +302,4 @@ elif st.session_state.page == "cart":
 elif st.session_state.page == "checkout":
 
     display_checkout()
+
