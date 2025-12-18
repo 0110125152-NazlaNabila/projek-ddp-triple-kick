@@ -183,7 +183,7 @@ def display_checkout():
         st.balloons()
         st.markdown("---")
         st.markdown(f"""
-        ## **SELAMAT! Terima kasih telah berbelanja di NAZLA SPORT!**
+        ## **SELAMAT! Terima kasih telah berbelanja di TRIPLE KICK !**
         Pesanan Anda telah kami terima. Berikut adalah ringkasan dan instruksi pembayaran Anda:
         """)
         st.markdown("---")
@@ -301,4 +301,5 @@ if st.session_state.page == "products":
 elif st.session_state.page == "cart":
     display_cart()
 elif st.session_state.page == "checkout":
+
     display_checkout()
